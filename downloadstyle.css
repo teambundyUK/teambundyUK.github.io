@@ -1,0 +1,74 @@
+body {
+    background: url(bg.png) repeat-y;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+.container {
+  font-family: "Lexend Deca";
+  text-align: center;
+  text-transform: capitalize;
+  color: ghostwhite;
+  padding: 20px 40px 20px 40px;
+  width: 800px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+}
+.container h1{
+  font-size: 80px;
+  font-family: "Pacifico";
+}
+
+.container .logo{
+  border-radius: 50%;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+  width: 200px;
+}
+
+.container nav a{
+  text-decoration: none;
+  font-size: 30px;
+  padding-bottom: 50px;
+  color: ghostwhite;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@keyframes navhover {
+  from {color: ghostwhite;}
+  to {color: #b978ff;}
+}
+
+.container nav a:hover{
+  animation-name: navhover;
+  animation-duration: 2s;
+  color: #b978ff;
+}
+
+.container nav{
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
+.downloads ul{
+  text-align: left;
+  text-decoration: none;
+  color: ghostwhite;
+  text-transform: capitalize;
+}
+
+.downloads ul .fa-download:hover{
+  animation-name: navhover;
+  animation-duration: 2s;
+  color: #b978ff;
+}  
+
+.downloads ul .fa-download{
+  text-decoration: none;
+  color: ghostwhite;
+}
