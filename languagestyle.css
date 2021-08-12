@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@font-face {
+  font-family: Pacifico;
+  src: url(Pacifico-Regular.ttf);
+}
+
 body {
     background: url(bg.png) repeat-y;
     background-size: cover;
