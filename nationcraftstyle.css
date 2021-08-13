@@ -47,18 +47,13 @@ body {
 
 @keyframes navhover {
   from {color: ghostwhite;}
-  to {color: #b978ff;}
+  to {color: #78ff83;}
 }
 
 .container nav a:hover{
   animation-name: navhover;
   animation-duration: 2s;
-  color: #b978ff;
-}
-
-@keyframes navhoverback {
-  from {color: #b978ff;}
-  to {color: ghostwhite;}
+  color: #78ff83;
 }
 
 .container nav{
